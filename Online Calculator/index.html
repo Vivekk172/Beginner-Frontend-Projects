@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2a9b6dd84b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Online Calculator</title>
+</head>
+<body>
+    <div class="all">
+        <h3 style="font-family: 'Quicksand', sans-serif;">Calculator</h3>
+        <input type="text" id="display" readonly><br>
+        <div class="buttons">
+            <button onclick="clearDisplay()"><i class="fa-solid fa-c"></i></button>
+            <button onclick="appendToDisplay('%')"><b>%</b></i></button>
+            <button onclick="backspaceDisplay()"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="dmsa" onclick="appendToDisplay('/')"><i class="fa-solid fa-divide"></i></button><br>           
+            <button class="numbers" onclick="appendToDisplay('7')"><i class="fa-solid fa-7"></i></button>
+            <button class="numbers" onclick="appendToDisplay('8')"><i class="fa-solid fa-8"></i></button>
+            <button class="numbers" onclick="appendToDisplay('9')"><i class="fa-solid fa-9"></i></button>    
+            <button class="dmsa" onclick="appendToDisplay('*')"><i class="fa-solid fa-xmark"></i></button><br>
+            <button class="numbers" onclick="appendToDisplay('4')"><i class="fa-solid fa-4"></i></button>
+            <button class="numbers" onclick="appendToDisplay('5')"><i class="fa-solid fa-5"></i></button>
+            <button class="numbers" onclick="appendToDisplay('6')"><i class="fa-solid fa-6"></i></button>
+            <button class="dmsa" onclick="appendToDisplay('-')"><i class="fa-solid fa-minus"></i></button><br>
+            <button class="numbers" onclick="appendToDisplay('1')"><i class="fa-solid fa-1"></i></button>
+            <button class="numbers" onclick="appendToDisplay('2')"><i class="fa-solid fa-2"></i></button>
+            <button class="numbers" onclick="appendToDisplay('3')"><i class="fa-solid fa-3"></i></button>
+            <button class="dmsa" onclick="appendToDisplay('+')"><i class="fa-solid fa-plus"></i></button><br>
+            <button onclick="squareToDisplay()"><b>x²</b></i></button>
+            <button class="numbers" onclick="appendToDisplay('0')"><i class="fa-solid fa-0"></i></button>
+            <button onclick="appendToDisplay('.')"><b>.</b></button>
+            <button onclick="calculate()"><i class="fa-solid fa-equals"></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

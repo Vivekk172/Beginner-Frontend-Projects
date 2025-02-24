@@ -1,0 +1,30 @@
+body {
+    background-color: #DDE0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.all {
+    background-color: #000000;
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 0px 20px 20px 20px;
+}
+h3 {
+    color: white;
+}
+input {
+    background-color: #dcdcdc;
+    height: 50px;
+    width: 220px;
+}
+button {
+    padding: 10px 10px;
+    height: 40px;
+    width: 50px;
+    margin: 10px 5px 0px 0px;
+}
+.buttons button:hover {
+    background-color: #ccc;
+}
